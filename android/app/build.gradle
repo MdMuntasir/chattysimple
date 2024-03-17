@@ -5,9 +5,7 @@ plugins {
     id 'com.google.gms.google-services'
 }
 
-dependencies {
-    implementation platform('com.google.firebase:firebase-bom:32.7.4')
-}
+
 
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
@@ -46,6 +44,7 @@ android {
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -59,4 +58,9 @@ android {
 
 flutter {
     source '../..'
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:32.7.4')
+    implementation "androidx.multidex:multidex:2.0.1"
 }

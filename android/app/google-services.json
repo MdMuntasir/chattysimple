@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "547083749120",
-    "project_id": "chattysimple-eceb1",
-    "storage_bucket": "chattysimple-eceb1.appspot.com"
+    "project_number": "712497068578",
+    "project_id": "chattysimple-2818b",
+    "storage_bucket": "chattysimple-2818b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:547083749120:android:ff517f6efcbd2043fb95e5",
+        "mobilesdk_app_id": "1:712497068578:android:f2fa3dd0283083c42a687b",
         "android_client_info": {
           "package_name": "com.kopinfotech.chattysimple"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDcmHUFyNgzb2suB8cW5HCQz0aKvrL_gRQ"
+          "current_key": "AIzaSyCxgsByGKtZjE38dcFfxnQfLSbKokmUe7U"
         }
       ],
       "services": {
